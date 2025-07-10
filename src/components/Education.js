@@ -5,7 +5,7 @@ function Education({ education }) {
       <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-700 mb-4">Eğitim</h3>
       <div className="space-y-4">
         {education.map((edu, i) => {
-          const school = Array.isArray(edu.school) ? edu.school.join(" / ") : edu.school;
+          const school = Array.isArray(edu.school) ? edu.school.join(" | ") : edu.school;
           const end = Array.isArray(edu.end) ? edu.end.join(" ") : edu.end;
 
           return (
