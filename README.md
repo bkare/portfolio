@@ -10,8 +10,8 @@ React + Tailwind CSS kullanarak oluşturulmuştur ve `bb.json` üzerinden tüm i
 ## Kullanılan Teknolojiler
 
 - React (CRA - Create React App)
-- Tailwind CSS (responsive)
-- Karanlık mod desteği (Geliştirme aşamasında)
+- Tailwind CSS (dark mode & responsive)
+- Karanlık mod desteği
 - JSON veri üzerinden dinamik içerik
 - Modüler bileşen yapısı
 
