@@ -1,4 +1,4 @@
-# 💼 Burak Durmuşlar | Elektrik Proje Yöneticisi
+# Burak Durmuşlar | Elektrik Elektronik Mühendisi
 
 Merhaba! Bu proje, benim kişisel portföy sitemdir.  
 React + Tailwind CSS kullanarak oluşturulmuştur ve `bb.json` üzerinden tüm içerik dinamik olarak yönetilmektedir.
@@ -11,7 +11,7 @@ React + Tailwind CSS kullanarak oluşturulmuştur ve `bb.json` üzerinden tüm i
 
 - React (CRA - Create React App)
 - Tailwind CSS (responsive)
-- Karanlık mod desteği
+- Karanlık mod desteği (Geliştirme aşamasında)
 - JSON veri üzerinden dinamik içerik
 - Modüler bileşen yapısı
 
