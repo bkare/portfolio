@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import html2pdf from "html2pdf.js";
 
 function App() {
   const [data, setData] = useState(null);
@@ -26,6 +27,20 @@ function App() {
       .catch((err) => console.error("Veri alınamadı:", err));
   }, []);
 
+  // PDF Fonksiyonu
+  const generatePDF = () => {
+  const element = document.body;
+  const opt = {
+    margin:       0,
+    filename:     'bdurmuslar-CV.pdf',
+    image:        { type: 'jpeg', quality: 0.98 },
+    html2canvas:  { scale: 2 },
+    jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
+  };
+
+  html2pdf().set(opt).from(element).save();
+  };
+
   if (!data) {
     return <div className="text-center p-10">Veri yükleniyor...</div>;
   }
@@ -38,6 +53,15 @@ function App() {
           className="fixed top-4 right-4 bg-gray-100 dark:bg-gray-900 text-sm px-3 py-1 rounded shadow hover:scale-105 transition-transform">
           {darkMode ? "☀️ Aydınlık Mod" : "🌙 Karanlık Mod"}
         </button>
+
+      {/* PDF Olarak İndir */}
+      <button
+        onClick={() => generatePDF()}
+        className="fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded shadow hover:scale-105 transition-transform z-50"
+      >
+        📄 PDF Olarak İndir
+      </button>  
+
       {/* Header bileşeni */}
       <Header name={data.name} title={data.title} contact={data.contact} />
 
@@ -56,8 +80,7 @@ function App() {
       <Experience experiences={data.experiences} />
 
       {/* Skills bileşeni */}
-      <Skills skills={data.skills} />
-
+      <Skills skills={data.skills} language={data.language} />
 
       {/* Projects bileşeni */}
       <Projects projects={data.projects} />

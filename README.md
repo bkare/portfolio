@@ -11,6 +11,7 @@ React + Tailwind CSS kullanarak oluşturulmuştur ve `bb.json` üzerinden tüm i
 
 - React (CRA - Create React App)
 - Tailwind CSS (dark mode & responsive)
+- html2pdf.js (PDF Çıktısı)
 - Karanlık mod desteği
 - JSON veri üzerinden dinamik içerik
 - Modüler bileşen yapısı
@@ -21,10 +22,12 @@ React + Tailwind CSS kullanarak oluşturulmuştur ve `bb.json` üzerinden tüm i
 
 - Kişisel bilgiler (isim, unvan, iletişim)
 - Yetenek grupları (soft skills, teknik, uzmanlık)
+- Dil Yetkinlikleri (skills bileşenine entegre)
 - İş Deneyimleri
 - Projeler ve sistem detayları
 - Eğitim bilgileri
-- Responsive tasarım
+- Responsive + Dark Mode
+- PDF Çıktısı (html2pdf ile)
 
 ---
 
