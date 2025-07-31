@@ -15,6 +15,7 @@
         "linkedin" : "https://www.linkedin.com/in/burak-durmuslar/",
         "github" : "https://github.com/bkare"
     },
+    "description" : "Bu portföy, kişisel bilgilerimi, deneyimlerimi ve projelerimi React & Tailwind ile modern bir yapıda sunmak üzere hazırlanmıştır. İçerikler json dosyası üzerinden dinamik olarak yönetilmektedir.",
     "experiences" : [
         {
             "position" : "Elektrik Mühendisi",

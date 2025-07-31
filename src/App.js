@@ -63,7 +63,11 @@ function App() {
       </button>  
 
       {/* Header bileşeni */}
-      <Header name={data.name} title={data.title} contact={data.contact} />
+      <Header 
+        name={data.name} 
+        title={data.title} 
+        contact={data.contact}
+        description={data.description} />
 
       <div className="flex flex-col md:flex-row md:divide-x md:divide-gray-300">
         <div className="flex-1 md:pr-6">

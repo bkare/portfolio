@@ -1,4 +1,4 @@
-function Header({ name, title, contact }) {
+function Header({ name, title, contact, description }) {
   const fullName = `${name[0]} ${name[1]}`;
 
   return (
@@ -13,7 +13,7 @@ function Header({ name, title, contact }) {
           />
         </div>
 
-        {/* Bilgiler: Ad, Unvan, Linkler */}
+        {/* Bilgiler: Ad, Unvan, Linkler, Açıklama */}
         <div className="flex flex-col items-center sm:items-start text-center sm:text-left space-y-1">
           <h1 className="text-3xl font-bold text-blue-700 dark:text-blue-300 transition-colors duration:500">{fullName}</h1>
           <h2 className="text-lg text-gray-600 dark:text-gray-300 transition-colors duration:500">{title}</h2>
@@ -39,6 +39,13 @@ function Header({ name, title, contact }) {
               </a>
             )}
           </div>
+
+          {/* Açıklama metni */}
+          {description && (
+            <p className="mt-3 text-sm text-gray-700 dark:text-gray-300 max-w-xl italic">
+              {description}
+            </p>
+          )}
         </div>
       </div>
     </header>
