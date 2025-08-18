@@ -2,7 +2,7 @@ function Skills({ skills, language }) {
   const skillGroups = skills[0]; // bb.json'da skills bir array içinde geliyor
 
   const skillTitles = {
-    "soft-skills": "Kişisel Yetkinlikler",
+    "soft-skills": "Mesleki Yetkinlikler",
     "computer-skills": "Bilgisayar Becerileri",
     "special-skills": "Uzmanlık Alanları",
     "language-skills": "Dil Yetkinlikleri"
@@ -21,8 +21,7 @@ function Skills({ skills, language }) {
             {list.map((item, index) => (
               <li
                 key={index}
-                className="bg-blue-600 dark:bg-blue-300 text-white dark:text-gray-900 px-3 py-1 rounded-full text-sm shadow transition-colors duration-400"
-              >
+                className="bg-blue-600 dark:bg-blue-300 text-white dark:text-gray-900 px-3 py-1 rounded-full text-sm shadow transition-colors duration-400">
                 {item}
               </li>
             ))}
