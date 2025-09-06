@@ -24,7 +24,6 @@
             "start" : ["Haziran", "2017"],
             "end" : "",
             "description" : "Elektrik taahhüt alanında 8 yılı aşkın saha ve ofis yönetimi deneyimimle, büyük ölçekli A+ akıllı konut projelerinin alt ve üst yapı imalat süreçlerinde uzmanım. Aynı anda birden fazla projenin saha koordinasyonu, ekip yönetimi ve teknik takibinden sorumlu oldum; bu sayede zaman yönetimi ve önceliklendirme becerimi üst seviyeye taşıdım. Keşif, metraj, hakediş, as-built ve shop drawing hazırlığında yetkinim. Hakediş kontrollerinde geliştirdiğim etkileşimli ataşman tabloları, kontrol sürecini %50 hızlandırırken; sadeleştirilmiş saha imalat projelerimle, kaliteyi koruyarak imalat hızını %10 artırdım. Hızlı karar alma yeteneğim ve stres yönetimindeki başarım ile projelerimde verimlilik sağlıyorum."
-            "description" : "Elektrik taahhüt alanında 8 yılı aşkın saha ve ofis yönetimi deneyimimle, büyük ölçekli A+ akıllı konut projelerinin alt ve üst yapı imalat süreçlerinde uzmanım. Aynı anda birden fazla projenin saha koordinasyonu, ekip yönetimi ve teknik takibinden sorumlu oldum; bu sayede zaman yönetimi ve önceliklendirme becerimi üst seviyeye taşıdım. Keşif, metraj, hakediş, as-built ve shop drawing hazırlığında yetkinim. Hakediş kontrollerinde geliştirdiğim etkileşimli ataşman tabloları, kontrol sürecini %50 hızlandırırken; sadeleştirilmiş saha imalat projelerimle, kaliteyi koruyarak imalat hızını %10 artırdım. Hızlı karar alma yeteneğim ve stres yönetimindeki başarım ile projelerimde verimlilik sağlıyorum."
         },
         {
             "position" : "Elektrik İşleri Danışmanı",
@@ -109,7 +108,7 @@
             "start" : "2024",
             "end" : "2025",
             "systems" : {
-                    "Proje Yönetimi ve Hazırlık" : ["Uygulama Kriterleri ve Standartlar", "Aydınlatma Tasarımı ve Hesapları", "Malzeme Seçimi ve Kalite Kontrolü"],
+                    "Proje Yönetimi ve Hazırlık" : ["Keşif", "Uygulama Kriterleri ve Standartlar", "Aydınlatma Tasarımı ve Hesapları", "Malzeme Seçimi ve Kalite Kontrolü"],
                     "Altyapı İşleri" : ["Jeneratör", "UPS", "Tranşe"],
                     "Elektrik Dağıtım Sistemleri" : ["Ana Dağıtım Panoları", "Tali Dağıtım Panoları", "Kablo Dağıtımı", "Ölçüm ve Sayaç Sistemleri"],
                     "Aydınlatma ve Priz Sistemleri" : ["İç Mekan Aydınlatma", "Acil Durum ve Yönlendirme", "Çevre Aydınlatma"],
@@ -197,7 +196,7 @@
             "company": "Dörtkol Elektrik",
             "start": ["June", "2017"],
             "end": "",
-            "description": "With over 8 years of experience in site and office management in the electrical contracting sector, I specialize in the infrastructure and construction installation processes of large-scale A+ smart residential projects. I was responsible for the site coordination, team management, and technical follow-up of multiple projects simultaneously, which improved my time management and prioritization skills. I am proficient in quantity surveying, progress payments, as-built, and shop drawings. The interactive attachment tables I developed for progress payment controls accelerated the process by 50%, while my simplified shop-drawings increased production speed by 10% without compromising quality. With my quick decision-making ability and success in stress management, I ensure efficiency in my projects."
+            "description": "With over 8 years of experience in site and office management in the electrical contracting sector, I specialize in the infrastructure and construction installation processes of large-scale A+ smart residential projects. I was responsible for the site coordination, team management, and technical follow-up of multiple projects simultaneously, which improved my time management and prioritization skills. I am proficient in BoQs, quantity takeoffs, progress payments, as-built, and shop drawings. The interactive attachment tables I developed for progress payment controls accelerated the process by 50%, while my simplified shop-drawings increased production speed by 10% without compromising quality. With my quick decision-making ability and success in stress management, I ensure efficiency in my projects."
         },
         {
             "position": "Electrical Works Consultant",
@@ -222,7 +221,7 @@
             "start": "2017",
             "end": "2021",
             "systems": {
-                "Project Management and Preparation": ["Quantity Surveying", "Progress Payments", "Shop-Drawing Projects"],
+                "Project Management and Preparation": ["Quantity Takeoffs", "Progress Payments", "Shop-Drawing Projects"],
                 "Infrastructure Works": ["Transformer Substation", "MV Switchgear", "Generator", "UPS", "Grounding and Lightning Protection"],
                 "Electrical Distribution Systems": ["Main Distribution Panels", "Sub Distribution Panels", "BUSBAR and Cable Distribution", "Measurement and Metering Systems"],
                 "Lighting and Socket Systems": ["Indoor Lighting", "Emergency and Exit Lighting", "Facede Lighting", "Outdoor Lighting"],
@@ -238,7 +237,7 @@
             "start": "2021",
             "end": "2023",
             "systems": {
-                "Project Management and Preparation": ["Quantity Surveying", "Progress Payments", "Shop-Drawing Projects"],
+                "Project Management and Preparation": ["Quantity Takeoffs", "Progress Payments", "Shop-Drawing Projects"],
                 "Infrastructure Works": ["Generator", "UPS", "Trenching"],
                 "Electrical Distribution Systems": ["Main Distribution Panels", "Sub Distribution Panels", "Cable Distribution", "Measurement and Metering Systems"],
                 "Lighting and Socket Systems": ["Smart Home Automation", "Emergency and Exit Lighting", "Facede Lighting", "Outdoor Lighting"],
@@ -254,7 +253,7 @@
             "start": "2021",
             "end": "2023",
             "systems": {
-                "Project Management and Preparation": ["Quantity Surveying", "Progress Payments", "Shop-Drawing Projects"],
+                "Project Management and Preparation": ["Quantity Takeoffs", "Progress Payments", "Shop-Drawing Projects"],
                 "Infrastructure Works": ["Generator", "UPS", "Trenching", "Grounding and Lightning Protection"],
                 "Electrical Distribution Systems": ["Main Distribution Panels", "Sub Distribution Panels", "Cable Distribution", "Measurement and Metering Systems"],
                 "Lighting and Socket Systems": ["Smart Home Automation", "Emergency and Exit Lighting", "Facede Lighting", "Outdoor Lighting"],
@@ -270,7 +269,7 @@
             "start": "2023",
             "end": "2024",
             "systems": {
-                "Project Management and Preparation": ["Quantity Surveying", "Progress Payments", "Shop-Drawing Projects"],
+                "Project Management and Preparation": ["Quantity Takeoffs", "Progress Payments", "Shop-Drawing Projects"],
                 "Testing, Commissioning and Handover": ["As-built Drawings", "Testing and Measurement Reports", "Client/Inspector Approvals", "Provisional Acceptance", "Final Acceptance"]
             }
         },
@@ -281,7 +280,7 @@
             "start": "2024",
             "end": "2025",
             "systems": {
-                "Project Management and Preparation": ["Implementation Criteria and Standards", "Lighting Design and Calculations", "Material Selection and Quality Control"],
+                "Project Management and Preparation": ["BoQs", "Implementation Criteria and Standards", "Lighting Design and Calculations", "Material Selection and Quality Control"],
                 "Infrastructure Works": ["Generator", "UPS", "Trenching"],
                 "Electrical Distribution Systems": ["Main Distribution Panels", "Sub Distribution Panels", "Cable Distribution", "Measurement and Metering Systems"],
                 "Lighting and Socket Systems": ["Indoor Lighting", "Emergency and Exit Lighting", "Outdoor Lighting"],
