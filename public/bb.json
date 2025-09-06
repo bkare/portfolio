@@ -1,4 +1,5 @@
 {
+"tr": {
     "name" : ["Bekir Burak", "Durmuşlar"],
     "title" : "Elektrik - Elektronik Mühendisi",
     "about" : {
@@ -22,6 +23,7 @@
             "company" : "Dörtkol Elektrik",
             "start" : ["Haziran", "2017"],
             "end" : "",
+            "description" : "Elektrik taahhüt alanında 8 yılı aşkın saha ve ofis yönetimi deneyimimle, büyük ölçekli A+ akıllı konut projelerinin alt ve üst yapı imalat süreçlerinde uzmanım. Aynı anda birden fazla projenin saha koordinasyonu, ekip yönetimi ve teknik takibinden sorumlu oldum; bu sayede zaman yönetimi ve önceliklendirme becerimi üst seviyeye taşıdım. Keşif, metraj, hakediş, as-built ve shop drawing hazırlığında yetkinim. Hakediş kontrollerinde geliştirdiğim etkileşimli ataşman tabloları, kontrol sürecini %50 hızlandırırken; sadeleştirilmiş saha imalat projelerimle, kaliteyi koruyarak imalat hızını %10 artırdım. Hızlı karar alma yeteneğim ve stres yönetimindeki başarım ile projelerimde verimlilik sağlıyorum."
             "description" : "Elektrik taahhüt alanında 8 yılı aşkın saha ve ofis yönetimi deneyimimle, büyük ölçekli A+ akıllı konut projelerinin alt ve üst yapı imalat süreçlerinde uzmanım. Aynı anda birden fazla projenin saha koordinasyonu, ekip yönetimi ve teknik takibinden sorumlu oldum; bu sayede zaman yönetimi ve önceliklendirme becerimi üst seviyeye taşıdım. Keşif, metraj, hakediş, as-built ve shop drawing hazırlığında yetkinim. Hakediş kontrollerinde geliştirdiğim etkileşimli ataşman tabloları, kontrol sürecini %50 hızlandırırken; sadeleştirilmiş saha imalat projelerimle, kaliteyi koruyarak imalat hızını %10 artırdım. Hızlı karar alma yeteneğim ve stres yönetimindeki başarım ile projelerimde verimlilik sağlıyorum."
         },
         {
@@ -47,13 +49,13 @@
             "start" : "2017",
             "end" : "2021",
             "systems" : {
-                    "Güç İletim ve Dağıtım Tesisatı" : ["BUSBAR Dağıtım Sistemi", "Trafo", "OG Dağıtım Hücreleri", "Priz Tesisatı", "Mekanik Tesisat Güç Dağıtımı"], 
-                    "Yedek Güç Sistemleri" : ["Jeneratör", "UPS"], 
-                    "Aydınlatma" : ["Genel Aydınlatma", "Acil Durum Yönlendirme", "Çevre Aydınlatma"], 
-                    "Koruma Sistemleri" : ["Topraklama ve Yıldırımdan Korunma Sistemleri"], 
-                    "İletişim Sistemleri" : ["Headend TV Sistemi", "Data/Telefon Altyapısı", "Interkom Sistemi", "M-Bus Sistemi"], 
-                    "Yangın Algılama ve İhbar Sistemleri" : ["Adresli Yangın Algılama ve İhbar Sistemi"],
-                    "Güvenlik Sistemleri" : ["CCTV Sistemi"]
+                    "Proje Yönetimi ve Hazırlık" : ["Metraj", "Hakediş", "Shop-Drawing Projeler"],
+                    "Altyapı İşleri" : ["Trafo Merkezi", "OG Dağıtım Hücreleri" ,"Jeneratör", "UPS" ,"Temel Topraklama ve Yıldırımdan Korunma"],
+                    "Elektrik Dağıtım Sistemleri" : ["Ana Dağıtım Panoları", "Tali Dağıtım Panoları", "BUSBAR ve Kablo Dağıtımı", "Ölçüm ve Sayaç Sistemleri"],
+                    "Aydınlatma ve Priz Sistemleri" : ["İç Mekan Aydınlatma", "Acil Durum ve Yönlendirme", "Dış Cephe Aydınlatma", "Çevre Aydınlatma"],
+                    "Mekanik Sistemler" : ["Asansör", "Yürüyen Merdiven", "HVAC Sistemleri", "Yangın Söndürme Sistemleri", "Isıtma - Kazan Dairesi Sistemleri", "Egzoz ve Taze Hava Fanları", "Jet-Fan Sistemleri", "Mekanik Otomasyon Panoları"],
+                    "Zayıf Akım Sistemleri" : ["TV Sistemi", "Yangın Algılama ve İhbar Sistemleri", "Data ve Telefon Altyapısı", "CCTV Sistemi", "Acil Anons ve Seslendirme Sistemi", "M-Bus Sistemi", "Interkom Sistemi"],
+                    "Test, Devreye Alma ve Devir Teslim" : ["As-built Projeler", "Test ve Ölçüm Raporları", "Devreye Alma İşlemleri", "İşveren/Denetim Onayları", "Geçici Kabul", "Kesin Kabul"]
                 }
                 
         }, 
@@ -64,30 +66,29 @@
             "start" : "2021",
             "end" : "2023",
             "systems" : {
-                    "Güç İletim ve Dağıtım Tesisatı" : ["Alçak Gerilim Güç Dağıtımı", "Priz Tesisatı", "Mekanik Tesisat Güç Dağıtımı"], 
-                    "Yedek Güç Sistemleri" : ["Jeneratör", "UPS"], 
-                    "Aydınlatma" : ["Aydınlatma Otomasyonu", "Acil Durum Yönlendirme", "Çevre Aydınlatma"], 
-                    "Koruma Sistemleri" : ["Topraklama Sistemi"], 
-                    "İletişim Sistemleri" : ["Headend TV Sistemi", "Data/Telefon Altyapısı", "Interkom Sistemi", "M-Bus Sistemi"], 
-                    "Yangın Algılama ve İhbar Sistemleri" : ["Adresli Yangın Algılama ve İhbar Sistemi"],
-                    "Güvenlik Sistemleri" : ["Gaz Algılama Sistemi", "Su Basması Algılama ve Alarm Sistemi", "Hırsız Alarm Sistemi", "CCTV Sistemi"],
-                    "Altyapı" : ["Tranşe", "Yeraltı Kablolama"]
+                    "Proje Yönetimi ve Hazırlık" : ["Metraj", "Hakediş", "Shop-Drawing Projeler"],
+                    "Altyapı İşleri" : ["Jeneratör", "UPS", "Tranşe"],
+                    "Elektrik Dağıtım Sistemleri" : ["Ana Dağıtım Panoları", "Tali Dağıtım Panoları", "Kablo Dağıtımı", "Ölçüm ve Sayaç Sistemleri"],
+                    "Aydınlatma ve Priz Sistemleri" : ["Akıllı Bina Otomasyonu", "Acil Durum ve Yönlendirme", "Dış Cephe Aydınlatma", "Çevre Aydınlatma"],
+                    "Mekanik Sistemler" : ["Asansör", "Yangın Söndürme Sistemleri", "Isıtma - Kazan Dairesi Sistemleri", "Mekanik Otomasyon Panoları"],
+                    "Zayıf Akım Sistemleri" : ["TV Sistemi", "Yangın Algılama ve İhbar Sistemleri", "Data ve Telefon Altyapısı", "CCTV Sistemi", "Acil Anons ve Seslendirme Sistemi", "M-Bus Sistemi", "Interkom Sistemi", "Gaz Algılama Sistemi", "Su Basması Algılama ve Alarm Sistemi", "Hırsız Alarm Sistemi"],
+                    "Test, Devreye Alma ve Devir Teslim" : ["As-built Projeler", "Test ve Ölçüm Raporları", "Devreye Alma İşlemleri", "İşveren/Denetim Onayları", "Geçici Kabul", "Kesin Kabul"]
                 }
         }, 
         {
-            "title" : "MESA Orman 2",
+            "title" : "MESA Orman II",
             "address" : "Beykoz / İstanbul",
             "position" : "Şantiye Şefi",
             "start" : "2021",
             "end" : "2023",
             "systems" : {
-                    "Güç İletim ve Dağıtım Tesisatı" : ["Alçak Gerilim Güç Dağıtımı", "Priz Tesisatı", "Mekanik Tesisat Güç Dağıtımı"], 
-                    "Yedek Güç Sistemleri" : ["Jeneratör", "UPS"], 
-                    "Aydınlatma" : ["Genel Aydınlatma", "Acil Durum Yönlendirme", "Çevre Aydınlatma"], 
-                    "Koruma Sistemleri" : ["Topraklama ve Yıldırımdan Korunma Sistemleri"], 
-                    "İletişim Sistemleri" : ["Multiswitch TV Sistemi", "Data/Telefon Altyapısı", "Interkom Sistemi", "M-Bus Sistemi"], 
-                    "Yangın Algılama ve İhbar Sistemleri" : ["Adresli Yangın Algılama ve İhbar Sistemi"],
-                    "Güvenlik Sistemleri" : ["Gaz Algılama Sistemi", "Su Basması Algılama ve Alarm Sistemi", "Hırsız Alarm Sistemi", "CCTV Sistemi"]
+                    "Proje Yönetimi ve Hazırlık" : ["Metraj", "Hakediş", "Shop-Drawing Projeler"],
+                    "Altyapı İşleri" : ["Jeneratör", "UPS", "Tranşe", "Temel Topraklama ve Yıldırımdan Korunma"],
+                    "Elektrik Dağıtım Sistemleri" : ["Ana Dağıtım Panoları", "Tali Dağıtım Panoları", "Kablo Dağıtımı", "Ölçüm ve Sayaç Sistemleri"],
+                    "Aydınlatma ve Priz Sistemleri" : ["Akıllı Bina Otomasyonu", "Acil Durum ve Yönlendirme", "Dış Cephe Aydınlatma", "Çevre Aydınlatma"],
+                    "Mekanik Sistemler" : ["Asansör", "Yangın Söndürme Sistemleri", "Isıtma - Kazan Dairesi Sistemleri", "Mekanik Otomasyon Panoları"],
+                    "Zayıf Akım Sistemleri" : ["TV Sistemi", "Yangın Algılama ve İhbar Sistemleri", "Data ve Telefon Altyapısı", "CCTV Sistemi", "Acil Anons ve Seslendirme Sistemi", "M-Bus Sistemi", "Interkom Sistemi", "Gaz Algılama Sistemi", "Su Basması Algılama ve Alarm Sistemi", "Hırsız Alarm Sistemi"],
+                    "Test, Devreye Alma ve Devir Teslim" : ["As-built Projeler", "Test ve Ölçüm Raporları", "Devreye Alma İşlemleri", "İşveren/Denetim Onayları", "Geçici Kabul", "Kesin Kabul"]
                 }
         },
         {
@@ -97,13 +98,8 @@
             "start" : "2023",
             "end" : "2024",
             "systems" : {
-                    "Güç İletim ve Dağıtım Tesisatı" : ["Alçak Gerilim Güç Dağıtımı", "Priz Tesisatı", "Mekanik Tesisat Güç Dağıtımı"], 
-                    "Yedek Güç Sistemleri" : ["Jeneratör", "UPS"], 
-                    "Aydınlatma" : ["Genel Aydınlatma", "Acil Durum Yönlendirme", "Çevre Aydınlatma"], 
-                    "Koruma Sistemleri" : ["Topraklama ve Yıldırımdan Korunma Sistemleri"], 
-                    "İletişim Sistemleri" : ["Data/Telefon Altyapısı"], 
-                    "Yangın Algılama ve İhbar Sistemleri" : ["Adresli Yangın Algılama ve İhbar Sistemi"],
-                    "Güvenlik Sistemleri" : ["Gaz Algılama Sistemi", "CCTV Sistemi"]
+                    "Proje Yönetimi ve Hazırlık" : ["Metraj", "Hakediş", "Shop-Drawing Projeler"],
+                    "Test, Devreye Alma ve Devir Teslim" : ["As-built Projeler", "Test ve Ölçüm Raporları", "İşveren/Denetim Onayları", "Geçici Kabul", "Kesin Kabul"]
                 }
         },
         {
@@ -113,14 +109,13 @@
             "start" : "2024",
             "end" : "2025",
             "systems" : {
-                    "Güç İletim ve Dağıtım Tesisatı" : ["Trafo, OG Dağıtım Hücreleri", "Alçak Gerilim Güç Dağıtımı", "Priz Tesisatı", "Mekanik Tesisat Güç Dağıtımı"], 
-                    "Yedek Güç Sistemleri" : ["Jeneratör", "UPS"], 
-                    "Aydınlatma" : ["Genel Aydınlatma", "Acil Durum Yönlendirme", "Çevre Aydınlatma"], 
-                    "Koruma Sistemleri" : ["Topraklama ve Yıldırımdan Korunma Sistemleri"], 
-                    "İletişim Sistemleri" : ["Mekanik Otomasyon", "TV Sistemi", "Data/Telefon Sistemleri", "Interkom Sistemi", "M-Bus Sistemi"], 
-                    "Yangın Algılama ve İhbar Sistemleri" : ["Adresli Yangın Algılama ve İhbar Sistemi"],
-                    "Güvenlik Sistemleri" : ["CCTV Sistemi"],
-                    "Altyapı" : ["Tranşe", "Yeraltı Kablolama"]
+                    "Proje Yönetimi ve Hazırlık" : ["Uygulama Kriterleri ve Standartlar", "Aydınlatma Tasarımı ve Hesapları", "Malzeme Seçimi ve Kalite Kontrolü"],
+                    "Altyapı İşleri" : ["Jeneratör", "UPS", "Tranşe"],
+                    "Elektrik Dağıtım Sistemleri" : ["Ana Dağıtım Panoları", "Tali Dağıtım Panoları", "Kablo Dağıtımı", "Ölçüm ve Sayaç Sistemleri"],
+                    "Aydınlatma ve Priz Sistemleri" : ["İç Mekan Aydınlatma", "Acil Durum ve Yönlendirme", "Çevre Aydınlatma"],
+                    "Mekanik Sistemler" : ["Asansör", "Yangın Söndürme Sistemleri", "Isıtma - Kazan Dairesi Sistemleri", "Mekanik Otomasyon Sistemi", "Mekanik Otomasyon Panoları"],
+                    "Zayıf Akım Sistemleri" : ["TV Sistemi", "Yangın Algılama ve İhbar Sistemleri", "Data ve Telefon Altyapısı", "CCTV Sistemi", "Acil Anons ve Seslendirme Sistemi", "M-Bus Sistemi", "Interkom Sistemi"],
+                    "Test, Devreye Alma ve Devir Teslim" : ["Test ve Ölçüm Raporları", "Devreye Alma İşlemleri", "İşveren/Denetim Onayları"]
                 }
         }
     ],
@@ -143,8 +138,8 @@
     ],
     "skills" : [
         {
-            "soft-skills" : ["Proje Yönetimi", "Teknik Ofis Yönetimi", "Saha Yönetimi", "Proje Kontrolü ve Uygulamaları", "Ekip Yönetimi", "Ekip Çalışması", "Maliyet Analizi", "Raporlama", "Keşif", "Hakediş", "Liderlik"],
-            "computer-skills" : ["AutoCAD", "Revit", "MS Office", "MS Project", "Python", "Vanilla JS", "CSS3", "HTML5", "Django", "React", "GIT"],
+            "soft-skills" : ["Proje Yönetimi", "Teknik Ofis Yönetimi", "Saha Yönetimi", "Proje Kontrolü ve Uygulamaları", "Keşif", "Hakediş", "Raporlama", "Shop Drawing", "As-Built Drawing", "Ekip Çalışması", "Maliyet Analizi", "Liderlik"],
+            "computer-skills" : ["AutoCAD", "Revit", "MS Office", "MS Project", "Python", "Vanilla JS", "Tailwind CSS", "CSS3", "HTML5", "Django", "React", "GIT"],
             "special-skills" : ["Akıllı Ev Sistemleri", "Alt ve Üst Yapı Elektrik İşleri", "Kuvvetli ve Zayıf Akım Sistemler"]
         }
     ],
@@ -153,5 +148,201 @@
             "english" : "B2",
             "spanish" : "A2"
         }
-    ]
+    ],
+    "labels": {
+        "about": "Hakkımda",
+        "birthday": "Doğum Günü",
+        "gender": "Cinsiyet",
+        "nationality": "Uyruk",
+        "d_licence": "Ehliyet",
+        "military": "Askerlik",
+        "contact": "İletişim",
+        "phone": "Telefon",
+        "location": "Adres",
+        "skills": "Yetenekler",
+        "projects": "Projeler",
+        "experience": "İş Deneyimi",
+        "position": "Pozisyon",
+        "education": "Eğitim",
+        "country": "Ülke",
+        "language": "Dil",
+        "soft-skills": "Kişisel Yetkinlikler",
+        "computer-skills": "Bilgisayar Becerileri",
+        "special-skills":"Uzmanlık Alanları",
+        "language-skills": "Dil Yetenekleri",
+        "download": "PDF Olarak İndir"
+    }
+},
+"en": {
+    "name" : ["Bekir Burak", "Durmuşlar"],
+    "title" : "Electrical - Electronics Engineer",
+    "about" : {
+        "b_date" : ["16","06","1988"],
+        "gender" : "Male",
+        "nationality" : "Republic of Türkiye",
+        "d_licence" : ["A", "B"],
+        "military" : "Done"
+    },
+    "contact" : {
+        "email" : "",
+        "phone" : "",
+        "location" : ["Çankaya", "Ankara", "Türkiye"],
+        "linkedin" : "https://www.linkedin.com/in/burak-durmuslar/",
+        "github" : "https://github.com/bkare"
+    },
+    "description": "This portfolio has been prepared to present my personal information, experiences, and projects in a modern structure using React & Tailwind. The content is dynamically managed via a JSON file.",
+    "experiences": [
+        {
+            "position": "Electrical Engineer",
+            "company": "Dörtkol Elektrik",
+            "start": ["June", "2017"],
+            "end": "",
+            "description": "With over 8 years of experience in site and office management in the electrical contracting sector, I specialize in the infrastructure and construction installation processes of large-scale A+ smart residential projects. I was responsible for the site coordination, team management, and technical follow-up of multiple projects simultaneously, which improved my time management and prioritization skills. I am proficient in quantity surveying, progress payments, as-built, and shop drawings. The interactive attachment tables I developed for progress payment controls accelerated the process by 50%, while my simplified shop-drawings increased production speed by 10% without compromising quality. With my quick decision-making ability and success in stress management, I ensure efficiency in my projects."
+        },
+        {
+            "position": "Electrical Works Consultant",
+            "company": "Belbeton - Bilsezer - Barutçuoğlu Joint Venture",
+            "start": ["March", "2024"],
+            "end": ["April", "2025"],
+            "description": "Provided consultancy services within the scope of the construction of the DSİ 23rd Regional Directorate Service Buildings and Facilities in Kastamonu."
+        },
+        {
+            "position": "Freelance Web Developer",
+            "company": "Freelance",
+            "start": ["June", "2010"],
+            "end": ["March", "2013"],
+            "description": "During my university years, I worked as a freelance web developer on individual and project-based works."
+        }
+    ],
+    "projects": [
+        {
+            "title": "BEKER Plaza and Shopping Mall",
+            "address": "Yaşamkent / Ankara",
+            "position": "Electrical Works Chief",
+            "start": "2017",
+            "end": "2021",
+            "systems": {
+                "Project Management and Preparation": ["Quantity Surveying", "Progress Payments", "Shop-Drawing Projects"],
+                "Infrastructure Works": ["Transformer Substation", "MV Switchgear", "Generator", "UPS", "Grounding and Lightning Protection"],
+                "Electrical Distribution Systems": ["Main Distribution Panels", "Sub Distribution Panels", "BUSBAR and Cable Distribution", "Measurement and Metering Systems"],
+                "Lighting and Socket Systems": ["Indoor Lighting", "Emergency and Exit Lighting", "Facede Lighting", "Outdoor Lighting"],
+                "Mechanical Systems": ["Elevator", "Escalator", "HVAC Systems", "Fire Extinguishing Systems", "Heating - Boiler Room Systems", "Exhaust and Fresh Air Fans", "Jet Fan Systems", "Mechanical Automation Panels"],
+                "Low Current Systems": ["TV System", "Fire Detection and Alarm Systems", "Data and Telephone Infrastructure", "CCTV System", "Emergency Announcement and PA System", "M-Bus System", "Intercom System"],
+                "Testing, Commissioning and Handover": ["As-built Drawings", "Testing and Measurement Reports", "Commissioning Works", "Client/Inspector Approvals", "Provisional Acceptance", "Final Acceptance"]
+            }
+        },
+        {
+            "title": "NAMET Beylerbeyi Residences",
+            "address": "Beylerbeyi / Istanbul",
+            "position": "Electrical Works Chief",
+            "start": "2021",
+            "end": "2023",
+            "systems": {
+                "Project Management and Preparation": ["Quantity Surveying", "Progress Payments", "Shop-Drawing Projects"],
+                "Infrastructure Works": ["Generator", "UPS", "Trenching"],
+                "Electrical Distribution Systems": ["Main Distribution Panels", "Sub Distribution Panels", "Cable Distribution", "Measurement and Metering Systems"],
+                "Lighting and Socket Systems": ["Smart Home Automation", "Emergency and Exit Lighting", "Facede Lighting", "Outdoor Lighting"],
+                "Mechanical Systems": ["Elevator", "Fire Extinguishing Systems", "Heating - Boiler Room Systems", "Mechanical Automation Panels"],
+                "Low Current Systems": ["TV System", "Fire Detection and Alarm Systems", "Data and Telephone Infrastructure", "CCTV System", "Emergency Announcement and PA System", "M-Bus System", "Intercom System", "Gas Detection System", "Flood Detection and Alarm System", "Burglar Alarm System"],
+                "Testing, Commissioning and Handover": ["As-built Drawings", "Testing and Measurement Reports", "Commissioning Works", "Client/Inspector Approvals", "Provisional Acceptance", "Final Acceptance"]
+            }
+        },
+        {
+            "title": "MESA Orman II",
+            "address": "Beykoz / Istanbul",
+            "position": "Electrical Works Chief",
+            "start": "2021",
+            "end": "2023",
+            "systems": {
+                "Project Management and Preparation": ["Quantity Surveying", "Progress Payments", "Shop-Drawing Projects"],
+                "Infrastructure Works": ["Generator", "UPS", "Trenching", "Grounding and Lightning Protection"],
+                "Electrical Distribution Systems": ["Main Distribution Panels", "Sub Distribution Panels", "Cable Distribution", "Measurement and Metering Systems"],
+                "Lighting and Socket Systems": ["Smart Home Automation", "Emergency and Exit Lighting", "Facede Lighting", "Outdoor Lighting"],
+                "Mechanical Systems": ["Elevator", "Fire Extinguishing Systems", "Heating - Boiler Room Systems", "Mechanical Automation Panels"],
+                "Low Current Systems": ["TV System", "Fire Detection and Alarm Systems", "Data and Telephone Infrastructure", "CCTV System", "Emergency Announcement and PA System", "M-Bus System", "Intercom System", "Gas Detection System", "Flood Detection and Alarm System", "Burglar Alarm System"],
+                "Testing, Commissioning and Handover": ["As-built Drawings", "Testing and Measurement Reports", "Commissioning Works", "Client/Inspector Approvals", "Provisional Acceptance", "Final Acceptance"]
+            }
+        },
+        {
+            "title": "Büyükdere Atatürk Nursery",
+            "address": "Sarıyer / Istanbul",
+            "position": "Technical Office Chief",
+            "start": "2023",
+            "end": "2024",
+            "systems": {
+                "Project Management and Preparation": ["Quantity Surveying", "Progress Payments", "Shop-Drawing Projects"],
+                "Testing, Commissioning and Handover": ["As-built Drawings", "Testing and Measurement Reports", "Client/Inspector Approvals", "Provisional Acceptance", "Final Acceptance"]
+            }
+        },
+        {
+            "title": "DSİ 23rd Regional Directorate Service Buildings and Facilities Construction",
+            "address": "Merkez / Kastamonu",
+            "position": "Electrical Works Consultant",
+            "start": "2024",
+            "end": "2025",
+            "systems": {
+                "Project Management and Preparation": ["Implementation Criteria and Standards", "Lighting Design and Calculations", "Material Selection and Quality Control"],
+                "Infrastructure Works": ["Generator", "UPS", "Trenching"],
+                "Electrical Distribution Systems": ["Main Distribution Panels", "Sub Distribution Panels", "Cable Distribution", "Measurement and Metering Systems"],
+                "Lighting and Socket Systems": ["Indoor Lighting", "Emergency and Exit Lighting", "Outdoor Lighting"],
+                "Mechanical Systems": ["Elevator", "Fire Extinguishing Systems", "Heating - Boiler Room Systems", "Mechanical Automation System", "Mechanical Automation Panels"],
+                "Low Current Systems": ["TV System", "Fire Detection and Alarm Systems", "Data and Telephone Infrastructure", "CCTV System", "Emergency Announcement and PA System", "M-Bus System", "Intercom System"],
+                "Testing, Commissioning and Handover": ["Testing and Measurement Reports", "Commissioning Works", "Client/Inspector Approvals"]
+            }
+        }
+    ],
+    "education": [
+        {
+            "school": "Çukurova University",
+            "department": "Electrical - Electronics Engineering",
+            "language": "English",
+            "country": "Turkey",
+            "start": "2006",
+            "end": "2015"
+        },
+        {
+            "school": ["İzzet Baysal University", "AB Leonardo Da Vinci Education Program"],
+            "department": "Mechatronic Systems",
+            "country": "Germany",
+            "start": ["July", "2013"],
+            "end": ["August", "2013"]
+        }
+    ],
+    "skills": [
+        {
+            "soft-skills": ["Project Management", "Technical Office Management", "Site Management", "Project Control and Applications", "Bill of Quantity", "Quantitiy Takeoff", "Progress Payment", "Reporting", "Shop Drawing", "As-Built Drawing", "Teamwork", "Cost Analysis", "Leadership"],
+            "computer-skills": ["AutoCAD", "Revit", "MS Office", "MS Project", "Python", "Vanilla JS", "Tailwind CSS", "CSS3", "HTML5", "Django", "React", "GIT"],
+            "special-skills": ["Smart Home Systems", "Infrastructure and Construction Electrical Works", "High and Low Current Systems"]
+        }
+    ],
+    "language" : [
+        {
+            "english" : "B2",
+            "spanish" : "A2"
+        }
+    ],
+    "labels": {
+        "about": "About Me",
+        "contact": "Contact",
+        "birthday": "Birthday",
+        "gender": "Gender",
+        "nationality": "Nationality",
+        "d_licence": "Driving Licence",
+        "military": "Millitary Service",
+        "phone": "Phone",
+        "location": "Location",
+        "skills": "Skills",
+        "projects": "Projects",
+        "position": "Position",
+        "experience": "Experience",
+        "education": "Education",
+        "country": "Country",
+        "language": "Language",
+        "soft-skills": "Soft Skills",
+        "computer-skills": "Computer Skills",
+        "special-skills":"Special Skills",
+        "language-skills": "Language Skills",
+        "download": "Download as PDF"
+    }
+}
 }

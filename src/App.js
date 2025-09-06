@@ -6,6 +6,7 @@ import Skills from "./components/Skills";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Education from "./components/Education";
+import ControlBar from "./components/ControlBar";
 import html2pdf from "html2pdf.js";
 
 function App() {
@@ -15,6 +16,9 @@ function App() {
     if (stored) return stored === "dark";
     return window.matchMedia("(prefers-color-scheme: dark)").matches;
   });
+
+  const [language, setLanguage] = useState("tr");
+  const selectedData = data?.[language];
 
   useEffect(() => {
     localStorage.setItem("theme", darkMode ? "dark" : "light");
@@ -41,7 +45,7 @@ function App() {
   html2pdf().set(opt).from(element).save();
   };
 
-  if (!data) {
+  if (!data || !data[language]) {
     return <div className="text-center p-10">Veri yükleniyor...</div>;
   }
 
@@ -49,48 +53,58 @@ function App() {
     <div className={`${darkMode ? "dark" : ""}`}>
     <div className="min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500">
     <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 py-8 space-y-6">
-        <button onClick={() => setDarkMode(!darkMode)}
-          className="fixed top-4 right-4 bg-gray-100 dark:bg-gray-900 text-sm px-3 py-1 rounded shadow hover:scale-105 transition-transform">
-          {darkMode ? "☀️ Aydınlık Mod" : "🌙 Karanlık Mod"}
-        </button>
 
-      {/* PDF Olarak İndir */}
-      <button
-        onClick={() => generatePDF()}
-        className="fixed bottom-4 right-4 bg-green-500 text-white px-4 py-2 rounded shadow hover:scale-105 transition-transform z-50"
-      >
-        📄 PDF Olarak İndir
-      </button>  
+      <ControlBar
+        language={language}
+        setLanguage={setLanguage}
+        darkMode={darkMode}
+        setDarkMode={setDarkMode}
+        generatePDF={generatePDF}
+        labels={selectedData.labels}
+      />
 
       {/* Header bileşeni */}
       <Header 
-        name={data.name} 
-        title={data.title} 
-        contact={data.contact}
-        description={data.description} />
+        name={selectedData.name} 
+        title={selectedData.title} 
+        contact={selectedData.contact}
+        description={selectedData.description} />
 
       <div className="flex flex-col md:flex-row md:divide-x md:divide-gray-300">
         <div className="flex-1 md:pr-6">
           {/* About bileşeni */}
-          <About about={data.about} />
+          <About 
+          about={selectedData.about}
+          labels={selectedData.labels} />
         </div>
         <div className="flex-1 md:pl-6">
           {/* Contact bileşeni */}
-          <Contact contact={data.contact} />
+          <Contact 
+          contact={selectedData.contact}
+          labels={selectedData.labels} />
         </div>
       </div>
 
       {/* Experience bileşeni */}
-      <Experience experiences={data.experiences} />
+      <Experience 
+      experiences={selectedData.experiences}
+      labels={selectedData.labels} />
 
       {/* Skills bileşeni */}
-      <Skills skills={data.skills} language={data.language} />
+      <Skills 
+      skills={selectedData.skills} 
+      language={selectedData.language} 
+      labels={selectedData.labels}/>
 
       {/* Projects bileşeni */}
-      <Projects projects={data.projects} />
+      <Projects 
+      projects={selectedData.projects} 
+      labels={selectedData.labels}/>
 
       {/* Education bileşeni */}
-      <Education education={data.education} />
+      <Education
+      education={selectedData.education}
+      labels={selectedData.labels} />
 
     </div></div></div>
   );

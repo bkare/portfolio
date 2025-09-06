@@ -15,7 +15,7 @@ function Header({ name, title, contact, description }) {
 
         {/* Bilgiler: Ad, Unvan, Linkler, Açıklama */}
         <div className="flex flex-col items-center sm:items-start text-center sm:text-left space-y-1">
-          <h1 className="text-3xl font-bold text-blue-700 dark:text-blue-300 transition-colors duration:500">{fullName}</h1>
+          <h1 className="text-3xl font-bold text-blue-700 dark:text-blue-400 transition-colors duration:500">{fullName}</h1>
           <h2 className="text-lg text-gray-600 dark:text-gray-300 transition-colors duration:500">{title}</h2>
           <div className="mt-2 space-x-4">
             {contact.github && (

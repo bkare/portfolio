@@ -1,16 +1,18 @@
-function Skills({ skills, language }) {
+function Skills({ skills, language, labels }) {
+  if (!skills || skills.length === 0) return null;
+
   const skillGroups = skills[0]; // bb.json'da skills bir array içinde geliyor
 
   const skillTitles = {
-    "soft-skills": "Mesleki Yetkinlikler",
-    "computer-skills": "Bilgisayar Becerileri",
-    "special-skills": "Uzmanlık Alanları",
-    "language-skills": "Dil Yetkinlikleri"
+    "soft-skills": labels["soft-skills"],
+    "computer-skills": labels["computer-skills"],
+    "special-skills": labels["special-skills"],
+    "language-skills": labels["language-skills"]
   };
 
   return (
     <section className="bg-white dark:bg-gray-800 p-4 rounded shadow mb-6 transition-colors duration-500">
-      <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-gray-700 dark:text-blue-400 mb-4 transition-colors duration-400">Yetenekler</h3>
+      <h3 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-blue-700 dark:text-blue-400 mb-4 transition-colors duration-400">{labels.skills}</h3>
 
       {Object.entries(skillGroups).map(([key, list]) => (
         <div key={key} className="mb-4">
@@ -21,7 +23,8 @@ function Skills({ skills, language }) {
             {list.map((item, index) => (
               <li
                 key={index}
-                className="bg-blue-600 dark:bg-blue-300 text-white dark:text-gray-900 px-3 py-1 rounded-full text-sm shadow transition-colors duration-400">
+                className="bg-blue-600 dark:bg-blue-300 text-white dark:text-gray-900 px-3 py-1 rounded-full text-sm shadow transition-colors duration-400"
+              >
                 {item}
               </li>
             ))}
@@ -38,7 +41,7 @@ function Skills({ skills, language }) {
             {Object.entries(language[0]).map(([lang, level], i) => (
               <li
                 key={i}
-                className="bg-blue-600 dark:bg-blue-300 text-white dark:text-gray-900 px-3 py-1 rounded-full text-sm shadow transition-colors duration-400"
+                className="bg-blue-300 dark:bg-blue-500 dark:text-white text-gray-900 px-3 py-1 rounded-full text-sm shadow transition-colors duration-400"
               >
                 {lang.charAt(0).toUpperCase() + lang.slice(1)} – {level}
               </li>
