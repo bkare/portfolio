@@ -1,20 +1,20 @@
 function ControlBar({ language, setLanguage, darkMode, setDarkMode, generatePDF, labels }) {
   return (
-    <div className="fixed top-4 right-4 flex items-center gap-2 bg-gray-200 dark:bg-gray-700 p-2 rounded-lg shadow-md z-50">
+    <div className="fixed top-4 right-4 flex items-center gap-2 bg-light-background dark:bg-dark-background p-2 rounded-lg shadow-md z-50 transition-colors duration-500">
       {/* Dil Seçici */}
       <div className="flex">
         <button
           onClick={() => setLanguage("tr")}
-          className={`px-2 py-1 rounded-l text-sm ${
-            language === "tr" ? "bg-blue-600 text-white" : "bg-gray-300 dark:bg-gray-600 dark:text-white"
+          className={`px-2 py-1 rounded-l text-sm shadow ${
+            language === "tr" ? "bg-dark-surface text-dark-text-primary" : "bg-light-surface text-light-text-primary"
           }`}
         >
           TR
         </button>
         <button
           onClick={() => setLanguage("en")}
-          className={`px-2 py-1 rounded-r text-sm ${
-            language === "en" ? "bg-blue-600 text-white" : "bg-gray-300 dark:bg-gray-600 dark:text-white"
+          className={`px-2 py-1 rounded-r text-sm shadow ${
+            language === "en" ? "bg-dark-surface text-dark-text-primary" : "bg-light-surface text-light-text-primary"
           }`}
         >
           EN
@@ -24,7 +24,7 @@ function ControlBar({ language, setLanguage, darkMode, setDarkMode, generatePDF,
       {/* Dark/Light Toggle */}
       <button
         onClick={() => setDarkMode(!darkMode)}
-        className="px-2 py-1 bg-yellow-400 dark:bg-gray-500 text-black dark:text-white rounded text-sm"
+        className="px-2 py-1 bg-dark-surface text-light-text-primary dark:text-dark-text-primary rounded text-sm"
       >
         {darkMode ? "🌙" : "☀️"}
       </button>
@@ -32,7 +32,7 @@ function ControlBar({ language, setLanguage, darkMode, setDarkMode, generatePDF,
       {/* PDF İndir */}
       <button
         onClick={generatePDF}
-        className="px-2 py-1 bg-green-500 text-white rounded text-sm hover:scale-105 transition-transform"
+        className="w-36 px-2 py-1 bg-dark-surface text-dark-text-primary rounded text-sm"
       >
         {labels.download}
       </button>

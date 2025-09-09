@@ -1,4 +1,4 @@
-import { useEffect, useState, useTransition } from "react";
+import { useEffect, useState, useRef, useTransition } from "react";
 import Header from "./components/Header";
 import About from "./components/About";
 import Contact from "./components/Contact";
@@ -8,6 +8,7 @@ import Projects from "./components/Projects";
 import Education from "./components/Education";
 import ControlBar from "./components/ControlBar";
 import html2pdf from "html2pdf.js";
+import PdfLayout from "./components/PdfLayout";
 
 function App() {
   const [data, setData] = useState(null);
@@ -32,17 +33,17 @@ function App() {
   }, []);
 
   // PDF Fonksiyonu
-  const generatePDF = () => {
-  const element = document.body;
-  const opt = {
-    margin:       0,
-    filename:     'bdurmuslar-CV.pdf',
-    image:        { type: 'jpeg', quality: 0.98 },
-    html2canvas:  { scale: 2 },
-    jsPDF:        { unit: 'in', format: 'a4', orientation: 'portrait' }
-  };
+  const pdfRef = useRef();
 
-  html2pdf().set(opt).from(element).save();
+  const generatePDF = () => {
+    if (pdfRef.current) {
+      html2pdf().from(pdfRef.current).set({
+        margin: 0,
+        filename: "bdurmuslarCV.pdf",
+        html2canvas: { scale: 2 },
+        jsPDF: { unit: "mm", format: "a4", orientation: "portrait" }
+      }).save();
+    }
   };
 
   if (!data || !data[language]) {
@@ -51,7 +52,7 @@ function App() {
 
   return (
     <div className={`${darkMode ? "dark" : ""}`}>
-    <div className="min-h-screen bg-white text-gray-900 dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500">
+    <div className="min-h-screen bg-light-background text-dark-text-secondary dark:bg-dark-background dark:text-dark-text-secondary transition-colors duration-500">
     <div className="max-w-4xl mx-auto px-4 sm:px-6 md:px-8 py-8 space-y-6">
 
       <ControlBar
@@ -68,9 +69,10 @@ function App() {
         name={selectedData.name} 
         title={selectedData.title} 
         contact={selectedData.contact}
-        description={selectedData.description} />
+        description={selectedData.description}
+        description_url={selectedData.description_url} />
 
-      <div className="flex flex-col md:flex-row md:divide-x md:divide-gray-300">
+      <div className="flex flex-col space-y-6 md:space-y-0 md:flex-row md:divide-x md:divide-light-surface">
         <div className="flex-1 md:pr-6">
           {/* About bileşeni */}
           <About 
@@ -106,6 +108,10 @@ function App() {
       education={selectedData.education}
       labels={selectedData.labels} />
 
+      {/* PDF için gizli layout */}
+      <div className="hidden">
+          <PdfLayout ref={pdfRef} data={selectedData} labels={selectedData.labels} />
+      </div>
     </div></div></div>
   );
 }
